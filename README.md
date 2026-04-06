@@ -25,10 +25,5 @@ Portfolio web personal orientado al ambito informatico. Incluye modo claro/oscur
 2. Cambia tema e idioma desde la parte superior derecha.
 3. Navega entre secciones con las pestañas.
 
-## Personalizacion rapida
-- Cambia tu nombre y subtitulo en `index.html`.
-- Ajusta textos de secciones en cada pagina.
-- Modifica colores en `styles/style.css`.
-
 ## Licencia
 Uso personal.
