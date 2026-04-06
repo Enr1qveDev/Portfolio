@@ -36,11 +36,44 @@
 
   <main class="container">
     <section class="hero card">
-      <h2 data-lang-es="Enrique Manzanas Acevedo" data-lang-en="Full Name">Enrique Manzanas Acevedo</h2>
-      <p data-lang-es="Tecnico Informatico &#183; Soporte IT &#183; Sistemas"
-         data-lang-en="IT Technician &#183; IT Support &#183; Systems">
-        Tecnico Informatico &#183; Soporte IT &#183; Sistemas
-      </p>
+      <h2 data-lang-es="Puntos fuertes" data-lang-en="Key strengths">Puntos fuertes</h2>
+      <ul class="strengths-list">
+        <li>
+          <span class="strength-pill">Soporte IT</span>
+          <span data-lang-es="Atencion al usuario, resolucion de incidencias y seguimiento de tickets."
+                data-lang-en="User support, incident resolution, and ticket follow-up.">
+            Atencion al usuario, resolucion de incidencias y seguimiento de tickets.
+          </span>
+        </li>
+        <li>
+          <span class="strength-pill">Infraestructura</span>
+          <span data-lang-es="Gestion de CPD, servidores y redes con enfoque en estabilidad."
+                data-lang-en="Data centre, server, and network management focused on stability.">
+            Gestion de CPD, servidores y redes con enfoque en estabilidad.
+          </span>
+        </li>
+        <li>
+          <span class="strength-pill">Mejora continua</span>
+          <span data-lang-es="Aprendizaje constante, trabajo en equipo y documentacion clara."
+                data-lang-en="Continuous learning, teamwork, and clear documentation.">
+            Aprendizaje constante, trabajo en equipo y documentacion clara.
+          </span>
+        </li>
+      </ul>
+      <div class="strengths-bars" aria-label="Indicadores de fortalezas">
+        <div class="strength-bar">
+          <span class="label">Soporte IT</span>
+          <span class="bar"><span class="fill" style="--w: 92%"></span></span>
+        </div>
+        <div class="strength-bar">
+          <span class="label">Infraestructura</span>
+          <span class="bar"><span class="fill" style="--w: 88%"></span></span>
+        </div>
+        <div class="strength-bar">
+          <span class="label">Mejora continua</span>
+          <span class="bar"><span class="fill" style="--w: 85%"></span></span>
+        </div>
+      </div>
     </section>
 
   </main>
@@ -50,6 +83,8 @@
       <p>(c) 2026 Enrique Manzanas</p>
     </div>
   </footer>
+
+  <a class="home-fab" href="index.html" aria-label="Ir al inicio" title="Inicio" data-lang-es="Al inicio" data-lang-en="Home">Al inicio</a>
 
   <script src="scripts/theme.js" defer></script>
   <script src="scripts/lang.js" defer></script>
