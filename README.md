@@ -8,7 +8,7 @@ Portfolio web personal orientado al ambito informatico. Sitio multi-pagina con m
 - `habilidades.html` Habilidades con leyenda de estado y etiquetas
 - `experiencia.html` Experiencia + Proyectos profesionales
 - `formacion.html` Formacion + Cursos y certificaciones
-- `proyectos.html` Proyectos personales y de desarrollo
+- `proyectos.html` Proyectos personales y de desarrollo (Portfolio Web y Cafeteria Web)
 - `styles/style.css` Estilos globales
 - `scripts/theme.js` Modo claro/oscuro (persistencia en `localStorage`)
 - `scripts/lang.js` Selector de idioma ES/EN (textos `data-lang-es` / `data-lang-en`)
@@ -20,6 +20,10 @@ Portfolio web personal orientado al ambito informatico. Sitio multi-pagina con m
 - Tarjetas con diseño consistente y responsive
 - Etiquetas de habilidades con estados (aprendizaje / dominado)
 - Boton de contacto por correo
+
+## Proyectos de desarrollo incluidos
+- Portfolio Web
+- Cafeteria Web: https://enr1qvedev.github.io/Cafeteria-Web/
 
 ## Uso
 1. Abre `index.html` en tu navegador.
